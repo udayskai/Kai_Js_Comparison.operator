@@ -1,0 +1,9 @@
+Greater then > 
+let Number_1="1Z";
+let Number_2="1L"; / true 
+//In this case string consider as a Number  .
+//It campere each word in string in reference A-Z & 1-Infinte. For:Example 1 is same in both then it will campere next letter  Z(high) with L(low) .
+
+
+Equal      = only true for both value equal .
+ Not Equal = only false for both value equal.
