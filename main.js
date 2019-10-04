@@ -79,10 +79,13 @@ else {
 }
 
 //ternary method
- let Number20=12;
- let Number21=22;
+ let Number20="-8A";
+ let Number21="-7";
  let Result20=undefined;
-  Result20=(Number20<=Number21)
-       ?("less then ")
-       :("Number is to high");
-       console.log(Result20);
+  Result20=(Number20>=Number21)
+       ?("true")
+       :("false");
+       console.log(Result20);                     // (a-z then A-Z then 1- infinte)
+                                                  // All string comperession are based on references
+                                                //  a-z >  A-Z > 1-infinte 
+                                                // compere position to position or we can say word to word.
