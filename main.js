@@ -40,7 +40,7 @@ let Number_2="1L";
 let Result_1=Number_1>Number_2;
 console.log(Result_1);// true 
 //In this case string consider as a Number .
-//It campere each word in string in reference A-Z & 1-Infinte.
+//It compare each word in string in reference A-Z & 1-Infinte.
 //Example 1 is same in both then it will campere next letter  Z(high) with L(low) .
 
 
@@ -86,6 +86,6 @@ else {
        ?("true")
        :("false");
        console.log(Result20);                     // (a-z then A-Z then 1- infinte)
-                                                  // All string comperession are based on references
+                                                  // All string comparison are based on references
                                                 //  a-z >  A-Z > 1-infinte 
-                                                // compere position to position or we can say word to word.
+                                                // compare position to position or we can say word to word.
